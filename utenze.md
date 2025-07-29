@@ -19,7 +19,7 @@ La richiesta di reset della password può essere fatta in autonomia dalla pagina
 - L’account del **PI**, con pieni privilegi sul progetto, viene creato contemporaneamente all’attivazione del progetto.  
 - Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo dopo richiesta formale via email da parte del PI.
 
-Nel caso fosse necessario ottenere numerosi account per i propri collaboratori, l'amministratore della piattaforma potrebbe richiedere la compilazione dei un form che semplifichi il caricamento e il tracciamento dell'operazione (disponibile <a href="files/UserImportTemplate.csv" download> qui </a>).
+Nel caso fosse necessario ottenere numerosi account per i propri collaboratori, l'amministratore della piattaforma potrebbe richiedere la compilazione dei un form che semplifichi il caricamento e il tracciamento dell'operazione (disponibile <a href="https://raw.githubusercontent.com/gruppoYES/REDCapSIGG/refs/heads/main/files/UserImportTemplate.csv" download> qui </a>).
 
 ### Gli account dei collaboratori (sponsorizzazione)
 Tutti gli account per i collaboratori saranno associati a quello del PI stesso, il quale assumerà per questi il ruolo di *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
