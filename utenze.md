@@ -19,7 +19,7 @@ La richiesta di reset della password può essere fatta in autonomia dalla pagina
 - L’account del **PI**, con pieni privilegi sul progetto, viene creato contemporaneamente all’attivazione del progetto.  
 - Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo dopo richiesta formale via email da parte del PI.
 
-Tutti gli account per i collaboratori, richiesti dal PI, saranno associati a quello del PI stesso che fungerà da *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
+Tutti gli account per i collaboratori, richiesti dal PI, saranno associati a quello del PI stesso, il quale assumerà per questi il ruolo di *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
 
 <p align="center">
   <img src="images/sponsor_accesso.png" alt="sponsor accesso" style="width:75%;">
@@ -31,6 +31,11 @@ Dalla *Sponsor Dashboard*, il PI potrà richiedere reset della password, estensi
   <img src="images/sponsor_dashboard.png" alt="sponsor dashboard" style="width:75%;">
 </p>
 
+Il PI potrà includere nel proprio progetto l'account di un collaboratore tramite la pagina dedicata, all'interno del progetto stesso. Dalla pagina iniziale del progetto, è necessario cliccare su *User Rights* (freccia rossa), quindi inserire lo *username* del collaboratore sotto a *Add new users* (freccia blu).
+
+<p align="center">
+  <img src="images/add_user.png" alt="adding user" style="width:75%;">
+</p>
 Nella fase iniziale, solo l’account del PI ha accesso al progetto. I collaboratori vengono **associati** al PI tramite una **sponsorizzazione**, che consente al PI di:  
 - Includere gli account collaboratori nel progetto.  
 - Definirne due caratteristiche fondamentali:  
