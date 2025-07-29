@@ -74,9 +74,7 @@ Per includere un collaboratore nel progetto, il PI deve:
 Gli account in **REDCap SIGG** sono caratterizzati da **privilegi di accesso** di diverso livello.  
 Il PI è responsabile dell’assegnazione dei privilegi agli account di cui è sponsor, garantendo sempre il **principio del privilegio minimo** (solo i permessi strettamente necessari).
 
-Guide dettagliate (in inglese) sui privilegi di REDCap sono disponibili:  
-- <a href="https://kb.wisc.edu/smph/informatics/page.php?id=96752" target="_blank">qui</a>  
-- <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359" target="_blank">qui</a>.
+Guide dettagliate (in inglese) sui privilegi di REDCap sono disponibili <a href="https://kb.wisc.edu/smph/informatics/page.php?id=96752" target="_blank">qui</a>  e <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359" target="_blank">qui</a>.
 
 ---
 
