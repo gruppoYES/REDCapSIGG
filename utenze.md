@@ -10,7 +10,7 @@ Gli account sono strettamente personali e identificati da uno **username** scelt
 - È attiva un’**autenticazione a due fattori** (*two-factor authentication*).
 
 Dopo 90 giorni, la piattaforma richiede la modifica della password. L’autenticazione a due fattori garantisce una maggiore sicurezza nell’accesso, tramite l’inserimento di un **codice numerico temporaneo**. L’utente può scegliere, ad ogni login, se ricevere il codice temporaneo via **email** (quella indicata in fase di registrazione) o generarlo tramite l’app *Microsoft Authenticator*.  
-[Qui](https://support.microsoft.com/it-it/account-billing/come-aggiungere-gli-account-a-microsoft-authenticator-92544b53-7706-4581-a142-30344a2a2a57){:target="_blank"} è disponibile una guida per impostare Microsoft Authenticator sul proprio cellulare.
+<a href="https://support.microsoft.com/it-it/account-billing/come-aggiungere-gli-account-a-microsoft-authenticator-92544b53-7706-4581-a142-30344a2a2a57" target="_blank">Qui</a> è disponibile una guida per impostare Microsoft Authenticator sul proprio cellulare.
 
 La piattaforma prevede politiche di **sospensione automatica** degli account:  
 - Ogni account ha una durata predefinita di un anno dalla creazione.
@@ -35,7 +35,7 @@ La richiesta di reset della password può essere effettuata in autonomia dalla *
 - L’account del **PI**, con pieni privilegi sul progetto, viene creato contestualmente all’attivazione del progetto.  
 - Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo su richiesta formale via email da parte del PI.
 
-Se sono necessari numerosi account per i collaboratori, l’amministratore della piattaforma può richiedere la compilazione di un form dedicato per semplificare il caricamento e la gestione. È possibile scaricarlo [qui](files/UserImportTemplate.zip){:target="_blank"}.
+Se sono necessari numerosi account per i collaboratori, l’amministratore della piattaforma può richiedere la compilazione di un form dedicato per semplificare il caricamento e la gestione. È possibile scaricarlo <a href="files/UserImportTemplate.zip" target="_blank">qui</a>.
 
 ---
 
@@ -75,8 +75,8 @@ Gli account in **REDCap SIGG** sono caratterizzati da **privilegi di accesso** d
 Il PI è responsabile dell’assegnazione dei privilegi agli account di cui è sponsor, garantendo sempre il **principio del privilegio minimo** (solo i permessi strettamente necessari).
 
 Guide dettagliate (in inglese) sui privilegi di REDCap sono disponibili:  
-- [qui](https://kb.wisc.edu/smph/informatics/page.php?id=96752){:target="_blank"}  
-- [qui](https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359){:target="_blank"}.
+- <a href="https://kb.wisc.edu/smph/informatics/page.php?id=96752" target="_blank">qui</a>  
+- <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359" target="_blank">qui</a>.
 
 ---
 
@@ -98,3 +98,26 @@ Guide dettagliate (in inglese) sui privilegi di REDCap sono disponibili:
 
 - **Privilegi di visualizzazione/esportazione:** configurano la possibilità di vedere o scaricare i dati contenuti nei form del progetto.
 
+---
+
+## Ruoli e assegnazione dei privilegi
+
+Per semplificare la gestione degli accessi, REDCap consente la **creazione di ruoli predefiniti** (roles), ciascuno con un set di privilegi già configurato.  
+Il PI può assegnare un ruolo agli utenti invece di selezionare manualmente ogni privilegio, garantendo coerenza e velocità nella gestione.
+
+### Esempi di ruoli
+
+- **CRF Designer**  
+  - *Project Design and Setup:* **abilitato** (può creare e modificare i form).  
+  - *User Rights:* **non abilitato** (non può gestire altri account).  
+  - *Create Records:* opzionale (a seconda delle necessità).  
+  - Privilegi su export/report: solo se deve testare i dati.  
+  Questo ruolo è tipico di chi si occupa di progettare il **Case Report Form** (CRF).
+
+- **Data Collector**  
+  - *Create Records:* **abilitato** (può inserire nuovi dati).  
+  - *Rename Records* e *Delete Records:* **disabilitati** (per evitare cancellazioni/modifiche accidentali).  
+  - Privilegi di export: generalmente **non concessi**.  
+  Questo ruolo è pensato per chi raccoglie dati in campo o in studi clinici.
+
+L’uso dei ruoli consente al PI di **assegnare rapidamente privilegi standardizzati** ai vari collaboratori, riducendo il rischio di errori di configurazione.
