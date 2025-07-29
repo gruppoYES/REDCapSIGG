@@ -1,42 +1,43 @@
-# Introduzione a REDCap
+# Struttura generale di REDCap
 
-**REDCap** (Research Electronic Data Capture) è una piattaforma web progettata per la raccolta e la gestione di dati di ricerca clinica.  
-È utilizzata in tutto il mondo per creare database, form di raccolta dati e questionari, con particolare attenzione alla sicurezza e alla conformità normativa.
+**REDCap** è composto da una **facciata web**, accessibile via Internet, sulla quale l’utente lavora direttamente, e da una **componente database**, non direttamente accessibile, nella quale vengono memorizzati i dati caricati.  
 
----
-
-## **Caratteristiche principali**
-- **Interfaccia intuitiva:** Consente la creazione di studi e questionari senza richiedere competenze avanzate di programmazione.  
-- **Controllo degli accessi:** Permette di gestire ruoli e permessi per ogni utente.  
-- **Audit trail:** Registra tutte le modifiche effettuate sui dati.  
-- **Compatibilità con standard clinici:** Supporta esportazioni in formati come SPSS, R, SAS e Stata.  
-- **Funzionalità di randomizzazione e longitudinalità:** Ideale per studi complessi.
+Ciascun progetto di ricerca, identificato da un **Project Identification (PID) number**, è separato dagli altri:  
+- Solo gli account con privilegio di accesso a uno specifico PID possono visualizzare i contenuti.  
+- In base ai privilegi, possono modificarli o scaricarli.  
+- Un singolo account può avere accesso a più PID (ad esempio un *data collector* che lavora su più studi o un PI che gestisce diversi progetti).  
+- I PID ai quali l’account non ha accesso non sono nemmeno visualizzati.
 
 ---
 
-## **Quando usare REDCap**
-REDCap è adatto quando:
-1. Serve una raccolta dati **sicura e conforme al GDPR**.
-2. Si devono gestire più utenti con livelli di permesso diversi.
-3. È richiesta la tracciabilità delle modifiche ai dati.
-4. È necessario esportare i dati in formati compatibili con software statistici.
+## Funzionalità del PI (Principal Investigator)
+
+All’interno di ciascun PID, l’account del PI può gestire:  
+- Il disegno dei form di raccolta dati.  
+- Gli account dei collaboratori.  
+- Il download o la visualizzazione dei dati caricati.
 
 ---
 
-## **Concetti fondamentali**
-- **Progetto:** L'unità base di lavoro in REDCap (può essere uno studio o un registro).
-- **Eventi:** Momenti specifici di raccolta dati (es. visita basale, follow-up).
-- **Instruments:** I moduli/questionari di raccolta dati.
-- **DAGs (Data Access Groups):** Gruppi di utenti che vedono solo determinati record.
+# Account e privilegi
+
+Gli account sono strettamente personali e identificati da uno **username** scelto dall’amministratore (solitamente nel formato `nome.cognome`).  
+
+### Sicurezza
+- Gli account sono protetti da **password** (non nota all’amministratore).  
+- È attiva un’**autenticazione a due fattori**: in fase di login, oltre alla password, viene richiesto un **token numerico temporaneo**, inviato via email o generato tramite l’app *Microsoft Authenticator*.
 
 ---
 
-## **Risorse utili**
-- [Sito ufficiale REDCap](https://www.project-redcap.org/)
-- Documentazione dell'istituzione che fornisce l’istanza REDCap.
-- Forum e comunità online per casi d’uso ed esempi.
+## Creazione degli account
 
----
+- Gli account vengono creati dall’amministratore della piattaforma REDCap SIGG.  
+- L’account del **PI**, con pieni privilegi sul progetto, viene creato contemporaneamente all’attivazione del progetto.  
+- Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo dopo richiesta formale via email da parte del PI.  
 
-## **Prossimo capitolo**
-[Progettazione di un nuovo progetto](progetto.md)
+Nella fase iniziale, solo l’account del PI ha accesso al progetto. I collaboratori vengono **associati** al PI tramite una **sponsorizzazione**, che consente al PI di:  
+- Includere gli account collaboratori nel progetto.  
+- Definirne due caratteristiche fondamentali:  
+  - **I privilegi**.  
+  - **La partecipazione ai Data Access Groups (DAG)**.
+
