@@ -4,7 +4,7 @@ Gli account sono strettamente personali e identificati da uno **username** scelt
 
 ## Sicurezza
 - Gli account sono protetti da **password** (non nota all’amministratore).  La validità della passowrd è di 90 giorni.
-- È attiva un’**autenticazione a due fattori**: in fase di login, oltre alla password, viene richiesto un token numerico temporaneo, inviato via email o generato tramite l’app *Microsoft Authenticator*.
+- È attiva un’**autenticazione a due fattori**: in fase di login, oltre alla password, viene richiesto un token numerico temporaneo, inviato via email o generato tramite l’app *Microsoft Authenticator*. [Qui] <a href="https://projectredcap.org/" target="_blank"> è presente una guida per impostare Authenticator sul proprio cellulare.
 - Gli account che non effettuano accessi per un lungo periodo di tempo, vengono automaticamente sospesi.
 - Tutti gli account vengono sospesi automaticamente dopo 1 anno dalla creazione. La durata dell'account può essere prorogata dall'amministratore, a seconda delle necessità del progetto.
 
