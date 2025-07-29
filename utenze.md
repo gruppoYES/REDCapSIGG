@@ -44,6 +44,6 @@ Il PI potrà includere nel proprio progetto l'account di un collaboratore tramit
 Tutti gli account in REDCap SIGG sono caratterizzati da privilegi di diverso livello. I privilegi permettono al possessore dell'account di svolgere alcune azioni o, al contrario, di essere impossibilitato dallo svolgerle. Il PI è responsabile della cessione dei privilegi agli account di cui è sponsor all'interno del progetto di ricerca. In considerazione del tipo di dati trattati sulla piattaforma, è buona norma per il PI mantenere i privilegi degli account di cui è sponsor al minimo necessario per lo svolgimento delle funzioni. 
 I privilegi personalizzabili in REDCap SIGG sono:
 - Privilegi di alto livello:
--- *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
--- *User Rights*: permette di avere accesso alle impostazioni degli account, ovvero all'inserimento di account all'interno del progetto e alla definizione dei privilegi degli altri account
--- *Data Access Group*: permette la creazione e la modifica dei DAG (vedi oltre)
+  -  *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
+  - *User Rights*: permette di avere accesso alle impostazioni degli account, ovvero all'inserimento di account all'interno del progetto e alla definizione dei privilegi degli altri account
+  - *Data Access Group*: permette la creazione e la modifica dei DAG (vedi oltre)
