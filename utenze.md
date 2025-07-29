@@ -19,7 +19,7 @@ La richiesta di reset della password può essere fatta in autonomia dalla pagina
 - L’account del **PI**, con pieni privilegi sul progetto, viene creato contemporaneamente all’attivazione del progetto.  
 - Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo dopo richiesta formale via email da parte del PI.
 
-Nel caso fosse necessario ottenere numerosi account per i propri collaboratori, l'amministratore della piattaforma potrebbe richiedere la compilazione dei un form che semplifichi il caricamento e il tracciamento dell'operazione (disponibile <a href="files/UserImportTemplate.zip" target="_blank"> qui </a> download).
+Nel caso fosse necessario ottenere numerosi account per i propri collaboratori, l'amministratore della piattaforma potrebbe richiedere la compilazione dei un form che semplifichi il caricamento e il tracciamento dell'operazione (disponibile <a href="files/UserImportTemplate.zip" target="_blank"> qui </a> il download, cliccando in alto a destra sull'icona - accanto a "raw").
 
 ### Gli account dei collaboratori (sponsorizzazione)
 Tutti gli account per i collaboratori saranno associati a quello del PI stesso, il quale assumerà per questi il ruolo di *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
@@ -39,8 +39,11 @@ Il PI potrà includere nel proprio progetto l'account di un collaboratore tramit
 <p align="center">
   <img src="images/add_user.png" alt="adding user" style="width:75%;">
 </p>
-Nella fase iniziale, solo l’account del PI ha accesso al progetto. I collaboratori vengono **associati** al PI tramite una **sponsorizzazione**, che consente al PI di:  
-- Includere gli account collaboratori nel progetto.  
-- Definirne due caratteristiche fondamentali:  
-  - **I privilegi**.  
-  - **La partecipazione ai Data Access Groups (DAG)**.
+
+## I privilegi
+Tutti gli account in REDCap SIGG sono caratterizzati da privilegi di diverso livello. I privilegi permettono al possessore dell'account di svolgere alcune azioni o, al contrario, di essere impossibilitato dallo svolgerle. Il PI è responsabile della cessione dei privilegi agli account di cui è sponsor all'interno del progetto di ricerca. In considerazione del tipo di dati trattati sulla piattaforma, è buona norma per il PI mantenere i privilegi degli account di cui è sponsor al minimo necessario per lo svolgimento delle funzioni. 
+I privilegi personalizzabili in REDCap SIGG sono:
+- Privilegi di alto livello:
+-- *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
+-- *User Rights*: permette di avere accesso alle impostazioni degli account, ovvero all'inserimento di account all'interno del progetto e alla definizione dei privilegi degli altri account
+-- *Data Access Group*: permette la creazione e la modifica dei DAG (vedi oltre)
