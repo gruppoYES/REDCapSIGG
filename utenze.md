@@ -8,8 +8,14 @@ Gli account sono strettamente personali e identificati da uno **username** scelt
 - Gli account che non effettuano accessi per un lungo periodo di tempo, vengono automaticamente sospesi.
 - Tutti gli account vengono sospesi automaticamente dopo 1 anno dalla creazione. La durata dell'account può essere prorogata dall'amministratore, a seconda delle necessità del progetto.
 
-### Reset della passoword
-La richiesta di reset di password può essere fatta in autonomia dalla pagina principale di REDCap SIGG, cliccando su *Forgot your password?* ![recupero_pwd](images/recupero_pdw.png)
+### Reset della password
+
+La richiesta di reset della password può essere fatta in autonomia dalla pagina principale di **REDCap SIGG**, cliccando su *Forgot your password?*
+
+<p align="center">
+  <img src="images/recupero_pwd.png" alt="recupero password" width="400">
+</p>
+
 
 ## Funzionalità del PI (Principal Investigator)
 
