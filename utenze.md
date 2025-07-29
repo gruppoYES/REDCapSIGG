@@ -11,7 +11,7 @@ La durata di ogni password è di 90 giorni, oltre i quali verrà richiesto all'u
 La richiesta di reset della password può essere fatta in autonomia dalla pagina principale di **REDCap SIGG**, cliccando su *Forgot your password?*. L'amministratore non ha la possibilità di conoscere o inviare la password all'utente.
 
 <p align="center">
-  <img src="images/recupero_pdw.png" alt="recupero password" style="width:50%;">
+  <img src="images/recupero_pdw.png" alt="recupero password" style="width:75%;">
 </p>
 
 
@@ -22,9 +22,14 @@ La richiesta di reset della password può essere fatta in autonomia dalla pagina
 Tutti gli account per i collaboratori, richiesti dal PI, saranno associati a quello del PI stesso che fungerà da *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
 
 <p align="center">
-  <img src="images/sponsor_accesso.png" alt="sponsor accesso" style="width:50%;">
+  <img src="images/sponsor_accesso.png" alt="sponsor accesso" style="width:75%;">
 </p>
 
+Dalla *Sponsor Dashboard*, il PI potrà richiedere reset della password, estensioni del periodo di validità dell'account, ri-attivazione o sospensione degli account.
+
+<p align="center">
+  <img src="images/sponsor_dashboard.png" alt="sponsor dashboard" style="width:75%;">
+</p>
 
 Nella fase iniziale, solo l’account del PI ha accesso al progetto. I collaboratori vengono **associati** al PI tramite una **sponsorizzazione**, che consente al PI di:  
 - Includere gli account collaboratori nel progetto.  
