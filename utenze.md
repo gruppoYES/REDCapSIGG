@@ -1,58 +1,100 @@
 # L'account
-Gli account sono strettamente personali e identificati da uno **username** scelto dall’amministratore (solitamente nel formato `nome.cognome`). Solo l'amministratore del sistema può creare nuovi account all'interno della piattaforma. Tutte le azioni svolte all'interno di un progetto sono automaticamente registrate da REDCap SIGG (in ottemperanza con la vigente normativa) e associate al relativo account. E' fortemente sconsigliato cedere le proprie credenziali ad altre persone.
+
+Gli account sono strettamente personali e identificati da uno **username** scelto dall’amministratore (solitamente nel formato `nome.cognome`). Solo l'amministratore del sistema può creare nuovi account all'interno della piattaforma. Tutte le azioni svolte all'interno di un progetto vengono automaticamente registrate da **REDCap SIGG** (in ottemperanza con la normativa vigente) e associate al relativo account. È fortemente sconsigliato condividere le proprie credenziali con altre persone.
+
+---
 
 ## Sicurezza
-- Gli account sono protetti da **password** (non nota all’amministratore).  La validità della passowrd è di 90 giorni.
-- È attiva un’*autenticazione a due fattori*.
-  
-La durata di ogni password è di 90 giorni, oltre i quali verrà richiesto all'utente di modificarla. L'autenticazione a due fattori assicura maggiore sicurezza nell'accesso alla piattaforma: questa forma di autenticazione avviene tramite l'inserimento di un codice temporaneo numerico. L'utente potrà scegliere, ad ogni login, se ricevere il codice temporaneo sull'email utilizzata in fase di iscrizione o se ottenere il codice tramite tramite l’app *Microsoft Authenticator*. <a href="https://support.microsoft.com/it-it/account-billing/come-aggiungere-gli-account-a-microsoft-authenticator-92544b53-7706-4581-a142-30344a2a2a57" target="_blank"> Qui </a> è disponibile una guida per impostare Authenticator sul proprio cellulare. Sulla piattaforma sono state istituite delle politiche di sospensione automatica dell'account: tutti gli account hanno una durata pre-impostata di un anno dalla loro creazione, ma possono essere sospesi prima in caso non venga effettuato il login per un lungo periodo di tempo. La piattaforma invia un'email per avvisare della sospensione dell'account e, attraverso il contatto con l'amministratore della piattaforma per il PI o tramite il PI per gli account dei collaboratori (vedi sotto), tutti gli account possono essere ri-attivati (mantenendo i diritti di accesso e i privilegi associati prima della sospensione).
+
+- Gli account sono protetti da **password** (non nota all’amministratore). La validità della password è di 90 giorni.
+- È attiva un’**autenticazione a due fattori** (*two-factor authentication*).
+
+Dopo 90 giorni, la piattaforma richiede la modifica della password. L’autenticazione a due fattori garantisce una maggiore sicurezza nell’accesso, tramite l’inserimento di un **codice numerico temporaneo**. L’utente può scegliere, ad ogni login, se ricevere il codice temporaneo via **email** (quella indicata in fase di registrazione) o generarlo tramite l’app *Microsoft Authenticator*.  
+[Qui](https://support.microsoft.com/it-it/account-billing/come-aggiungere-gli-account-a-microsoft-authenticator-92544b53-7706-4581-a142-30344a2a2a57){:target="_blank"} è disponibile una guida per impostare Microsoft Authenticator sul proprio cellulare.
+
+La piattaforma prevede politiche di **sospensione automatica** degli account:  
+- Ogni account ha una durata predefinita di un anno dalla creazione.
+- Gli account inattivi per lunghi periodi possono essere sospesi.  
+  In tal caso, la piattaforma invia un’email di avviso.  
+- La riattivazione può essere richiesta contattando l’amministratore (per il PI) o tramite il PI (per i collaboratori), mantenendo i privilegi precedenti.
+
+---
 
 ### Reset della password
-La richiesta di reset della password può essere fatta in autonomia dalla pagina principale di **REDCap SIGG**, cliccando su *Forgot your password?*. L'amministratore non ha la possibilità di conoscere o inviare la password all'utente.
+
+La richiesta di reset della password può essere effettuata in autonomia dalla **pagina principale di REDCap SIGG**, cliccando su *Forgot your password?*. L’amministratore non ha la possibilità di conoscere o inviare la password all’utente.
 
 <p align="center">
   <img src="images/recupero_pdw.png" alt="recupero password" style="width:75%;">
 </p>
 
+---
 
 ## Creazione degli account  
-- L’account del **PI**, con pieni privilegi sul progetto, viene creato contemporaneamente all’attivazione del progetto.  
-- Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo dopo richiesta formale via email da parte del PI.
 
-Nel caso fosse necessario ottenere numerosi account per i propri collaboratori, l'amministratore della piattaforma potrebbe richiedere la compilazione dei un form che semplifichi il caricamento e il tracciamento dell'operazione (disponibile <a href="files/UserImportTemplate.zip" target="_blank"> qui </a> il download, cliccando in alto a destra sull'icona - accanto a "raw").
+- L’account del **PI**, con pieni privilegi sul progetto, viene creato contestualmente all’attivazione del progetto.  
+- Gli account dei **collaboratori** (ad esempio *data collector*, *manager*, *designer*) vengono creati solo su richiesta formale via email da parte del PI.
+
+Se sono necessari numerosi account per i collaboratori, l’amministratore della piattaforma può richiedere la compilazione di un form dedicato per semplificare il caricamento e la gestione. È possibile scaricarlo [qui](files/UserImportTemplate.zip){:target="_blank"}.
+
+---
 
 ### Gli account dei collaboratori (sponsorizzazione)
-Tutti gli account per i collaboratori saranno associati a quello del PI stesso, il quale assumerà per questi il ruolo di *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei suoi collaboratori. Il PI potrà gestire gli account sponsorizzati dalla pagina principale di REDCap SIGG, dopo aver effetuato il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
+
+Gli account dei collaboratori sono **associati al PI**, che assume il ruolo di *sponsor*. La sponsorizzazione permette al PI di gestire in autonomia gli account dei propri collaboratori.
+
+Il PI può accedere alla gestione degli account sponsorizzati dalla pagina principale di **REDCap SIGG**, dopo il login, cliccando su *Sponsor Dashboard* (in verde nell'immagine sotto).
 
 <p align="center">
   <img src="images/sponsor_accesso.png" alt="sponsor accesso" style="width:75%;">
 </p>
 
-Dalla *Sponsor Dashboard*, il PI potrà richiedere reset della password, estensioni del periodo di validità dell'account, ri-attivazione o sospensione degli account.
+Dalla *Sponsor Dashboard*, il PI può:
+- richiedere il reset della password,
+- estendere il periodo di validità dell’account,
+- riattivare o sospendere gli account.
 
 <p align="center">
   <img src="images/sponsor_dashboard.png" alt="sponsor dashboard" style="width:75%;">
 </p>
 
-Il PI potrà includere nel proprio progetto l'account di un collaboratore tramite la pagina dedicata, all'interno del progetto stesso. Dalla pagina iniziale del progetto, è necessario cliccare su *User Rights* (freccia rossa), quindi inserire lo *username* del collaboratore sotto a *Add new users* (freccia blu).
+Per includere un collaboratore nel progetto, il PI deve:
+1. Accedere al progetto.
+2. Dalla pagina iniziale del progetto, cliccare su **User Rights** (freccia rossa).
+3. Inserire lo **username** del collaboratore sotto *Add new users* (freccia blu).
 
 <p align="center">
   <img src="images/add_user.png" alt="adding user" style="width:75%;">
 </p>
 
-## I privilegi
-Tutti gli account in REDCap SIGG sono caratterizzati da privilegi di diverso livello. I privilegi permettono al possessore dell'account di svolgere alcune azioni o, al contrario, di essere impossibilitato dallo svolgerle. Il PI è responsabile della cessione dei privilegi agli account di cui è sponsor all'interno del progetto di ricerca. In considerazione del tipo di dati trattati sulla piattaforma, è buona norma per il PI mantenere i privilegi degli account di cui è sponsor al minimo necessario per lo svolgimento delle funzioni. 
-Guide dettagliate (in inglese) circa i privilegi disponibili in REDCap sono disponibili <a href="https://kb.wisc.edu/smph/informatics/page.php?id=96752" target="_blank"> qui </a> e <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359" target="_blank"> qui </a>.
+---
 
-Brevemente, i privilegi personalizzabili in REDCap SIGG sono:
-- Privilegi di alto livello:
-  - *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare-modificare-cancellare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
-  - *User Rights*: permette di avere accesso alle impostazioni degli account, ovvero all'inserimento di account all'interno del progetto e alla definizione dei privilegi degli altri account
-  - *Data Access Group*: permette la creazione e la modifica dei DAG (vedi oltre)
-- Altri privilegi: permettono di gestire l'accesso e l'impostazione ad alcuni strumenti aggiuntivi, come il calendario, i reports, accesso API, creazione di regole per la valutazione della qualità dei dati
-- Privilegi relativi ai records inseriti nel progetto (NB: nella maggior parte dei casi, ad ogni record corrisponde un partecipante allo studio):
-  -  *Create Records*: permette di inserire nuovi dati nel database (fondamentale, ad esempio, per i data collector)
-  -  *Rename Records*: permette di modificare il nome (*record_id*) di un record inserito precedentemente
-  -  *Delete Records*: permette di cancellare records già inseriti
-- Privilegi relativi al "locking" dei records: permettono ad un utente di bloccare la modifica/cancellazione di specifici records da parte degli utenti che non dispongono di questo privilegio
-- Privilegi per la visualizzazione e l'esportazione dei dati: permettono di personalizzare la possibilità di visualizzare o scaricare i dati che sono stati inclusi in specifiche schede di raccolta dati (*forms*)
+## I privilegi
+
+Gli account in **REDCap SIGG** sono caratterizzati da **privilegi di accesso** di diverso livello.  
+Il PI è responsabile dell’assegnazione dei privilegi agli account di cui è sponsor, garantendo sempre il **principio del privilegio minimo** (solo i permessi strettamente necessari).
+
+Guide dettagliate (in inglese) sui privilegi di REDCap sono disponibili:  
+- [qui](https://kb.wisc.edu/smph/informatics/page.php?id=96752){:target="_blank"}  
+- [qui](https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359){:target="_blank"}.
+
+---
+
+### Privilegi personalizzabili in REDCap SIGG
+
+- **Privilegi di alto livello:**  
+  - **Project Design and Setup:** modifica delle impostazioni di progetto (es. disegno longitudinale), creazione/modifica/cancellazione degli strumenti di raccolta dati, cambio stato (sviluppo, produzione, archiviazione).
+  - **User Rights:** gestione degli account (aggiunta utenti e modifica dei privilegi).
+  - **Data Access Group:** creazione e modifica dei DAG (vedi sezione dedicata).
+
+- **Altri privilegi:** gestione di strumenti aggiuntivi come calendario, report, API, regole di qualità dei dati.
+
+- **Privilegi sui record (tipicamente corrispondenti a un partecipante):**  
+  - **Create Records:** inserire nuovi dati nel database (fondamentale per i *data collector*).  
+  - **Rename Records:** modificare l’ID di un record già inserito.  
+  - **Delete Records:** eliminare record già inseriti.
+
+- **Privilegi di "locking":** permettono di bloccare la modifica/cancellazione di specifici record da parte di utenti senza questo privilegio.
+
+- **Privilegi di visualizzazione/esportazione:** configurano la possibilità di vedere o scaricare i dati contenuti nei form del progetto.
+
