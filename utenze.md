@@ -42,8 +42,17 @@ Il PI potrà includere nel proprio progetto l'account di un collaboratore tramit
 
 ## I privilegi
 Tutti gli account in REDCap SIGG sono caratterizzati da privilegi di diverso livello. I privilegi permettono al possessore dell'account di svolgere alcune azioni o, al contrario, di essere impossibilitato dallo svolgerle. Il PI è responsabile della cessione dei privilegi agli account di cui è sponsor all'interno del progetto di ricerca. In considerazione del tipo di dati trattati sulla piattaforma, è buona norma per il PI mantenere i privilegi degli account di cui è sponsor al minimo necessario per lo svolgimento delle funzioni. 
-I privilegi personalizzabili in REDCap SIGG sono:
+Guide dettagliate (in inglese) circa i privilegi disponibili in REDCap sono disponibili <a href="https://kb.wisc.edu/smph/informatics/page.php?id=96752" target="_blank"> qui </a> e <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1359" target="_blank"> qui </a>.
+
+Brevemente, i privilegi personalizzabili in REDCap SIGG sono:
 - Privilegi di alto livello:
-  -  *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
+  - *Project Design and Setup*: permette di modificare l'impostazione del progetto di ricerca (ad esempio, includere un disegno longitudinale), disegnare-modificare-cancellare gli strumenti di raccolta dati, modificare lo stato del progetto (sviluppo, produzione, archiviazione).
   - *User Rights*: permette di avere accesso alle impostazioni degli account, ovvero all'inserimento di account all'interno del progetto e alla definizione dei privilegi degli altri account
   - *Data Access Group*: permette la creazione e la modifica dei DAG (vedi oltre)
+- Altri privilegi: permettono di gestire l'accesso e l'impostazione ad alcuni strumenti aggiuntivi, come il calendario, i reports, accesso API, creazione di regole per la valutazione della qualità dei dati
+- Privilegi relativi ai records inseriti nel progetto (NB: nella maggior parte dei casi, ad ogni record corrisponde un partecipante allo studio):
+  -  *Create Records*: permette di inserire nuovi dati nel database (fondamentale, ad esempio, per i data collector)
+  -  *Rename Records*: permette di modificare il nome (*record_id*) di un record inserito precedentemente
+  -  *Delete Records*: permette di cancellare records già inseriti
+- Privilegi relativi al "locking" dei records: permettono ad un utente di bloccare la modifica/cancellazione di specifici records da parte degli utenti che non dispongono di questo privilegio
+- Privilegi per la visualizzazione e l'esportazione dei dati: permettono di personalizzare la possibilità di visualizzare o scaricare i dati che sono stati inclusi in specifiche schede di raccolta dati (*forms*)
