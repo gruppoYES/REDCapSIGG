@@ -13,7 +13,7 @@ Gli account sono strettamente personali e identificati da uno **username** scelt
 La richiesta di reset della password può essere fatta in autonomia dalla pagina principale di **REDCap SIGG**, cliccando su *Forgot your password?*
 
 <p align="center">
-  <img src="images/recupero_pwd.png" alt="recupero password" width="400">
+  <img src="images/recupero_pdw.png" alt="recupero password" width="400">
 </p>
 
 
