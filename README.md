@@ -2,6 +2,6 @@
 Benvenuto nella guida per REDCap SIGG.
 
 - [Introduzione](introduzione.md)
-- [Progettazione progetto](progetto.md)
+- [Account](utenze.md)
 - [DAGs](dags.md)
 - [Esportazione dati](esportazione.md)
