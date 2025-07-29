@@ -1,5 +1,5 @@
-# Guida REDCap
-Benvenuto nella guida web-based per REDCap.
+# Guida utente di REDCap SIGG
+Benvenuto nella guida per REDCap SIGG.
 
 - [Introduzione](introduzione.md)
 - [Progettazione progetto](progetto.md)
