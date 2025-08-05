@@ -2,6 +2,6 @@
 Benvenuto nella guida per REDCap SIGG.
 
 - [Introduzione](introduzione.md)
-- [Account](utenze.md)
-- [DAGs](dags.md)
+- [Account: sicurezza e privilegi](utenze.md)
+- [I Data Access Groups](dags.md)
 - [Esportazione dati](esportazione.md)
