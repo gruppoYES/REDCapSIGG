@@ -1,3 +1,8 @@
+---
+title: Impostazione generale di REDCap SIGG
+nav_order: 3
+---
+
 # Impostazione generale di REDCap SIGG
 
 In REDCap SIGG (ricerca.sigg.it/redcap), ogni studio corrisponde ad un
