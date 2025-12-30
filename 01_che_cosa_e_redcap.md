@@ -1,6 +1,0 @@
----
-title: "Che cosa è REDCap"
-nav_order: 1
----
-
-Forbidden. Calls to this URL via the terminal are not allowed. To save the url contents to the container, open the url in the computer tool, right click anywhere, and click "Save As...".
