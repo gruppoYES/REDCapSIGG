@@ -1,6 +1,6 @@
 # Indice
 
-- [Che cosa è REDCap](01_che_cosa_e_redcap.md)
+- [Che cosa è REDCap](docs/01_che_cosa_e_redcap.md)
 - [Impostazione generale di REDCap SIGG](02_impostazione_generale_di_redcap_sigg.md)
 - [Strutturare la raccolta dati](03_strutturare_la_raccolta_dati.md)
 - [Gestione degli utenti e dei privilegi di accesso](04_gestione_degli_utenti_e_dei_privilegi_di_accesso.md)
