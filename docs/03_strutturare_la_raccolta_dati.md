@@ -1,3 +1,8 @@
+---
+title: Strutturare la raccolta dati
+nav_order: 4
+---
+
 # Strutturare la raccolta dati
 
 In REDCap, la raccolta dei dati può avvenire attraverso due modalità
