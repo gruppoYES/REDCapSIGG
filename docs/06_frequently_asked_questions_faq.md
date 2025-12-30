@@ -17,26 +17,20 @@
 
 2.  Sono PI e ho bisogno di creare nuove utenze.
 
-```{=html}
-<!-- -->
-```
-1)  Il PI non può creare nuove utenze su REDCap SIGG: può aggiungere al
+-  Il PI non può creare nuove utenze su REDCap SIGG: può aggiungere al
     progetto solo utenze già create dall'amministratore.a richiesta di
     creazione delle utenze avviene tramite email all'amministratore
     (gruppoyes@sigg.it) usando il modulo fornito in fase di attivazione
     del progetto.
 
-2)  Sono PI: gli account dei collaboratori sono stati creati, ma non
+3.  Sono PI: gli account dei collaboratori sono stati creati, ma non
     riescono ad accedere al progetto.
 
-3)  L'amministratore crea le utenze, ma è responsabilità del PI
+-   L'amministratore crea le utenze, ma è responsabilità del PI
     aggiungere gli account al progetto e assegnare i
     privilegi.Operazione: menu a sinistra → *User Rights* → aggiungere
     l'utente al progetto → impostare i permessi necessari.
 
-```{=html}
-<!-- -->
-```
 4.  Sono PI: un collaboratore non riesce più ad accedere alla
     piattaforma REDCap.
 
