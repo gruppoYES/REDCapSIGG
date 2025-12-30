@@ -1,3 +1,8 @@
+---
+title: Che cosa è REDCap
+nav_order: 2
+---
+
 # Che cosa è REDCap
 
 REDCap (Research Electronic Data Capture) è una piattaforma web pensata
