@@ -1,3 +1,8 @@
+---
+title: L'esportazione dei dati
+nav_order: 6
+---
+
 # L'esportazione dei dati
 
 In REDCap l'esportazione dei dati può avvenire principalmente in due
