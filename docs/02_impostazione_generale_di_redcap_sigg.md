@@ -37,7 +37,7 @@ del progetto. In particolare:
     progetto non viene attivamente cancellato. Ha la funzione di
     "archivio".
 
-Il *Principal Investigator* (o una persona da lui incaricata --ad
+Il *Principal Investigator* (o una persona da lui incaricata -ad
 esempio un data manager) ha il compito di gestire il progetto e le
 utenze. In particolare, è bene ricordare che:
 
