@@ -1,8 +1,0 @@
-title: "REDCapSIGG"
-description: "Guida alla piattaforma REDCap SIGG"
-# Utilizza il tema Just‑the‑Docs per fornire una barra laterale con navigazione automatica
-remote_theme: just-the-docs/just-the-docs
-
-# Abilita la ricerca e il menu di navigazione
-search_enabled: true
-nav_enabled: true
