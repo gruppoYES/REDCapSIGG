@@ -3,7 +3,7 @@ title: Frequently Asked Questions (FAQ)
 nav_order: 7
 ---
 
-### Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 
 Q.  Sono PI di un progetto e non riesco ad accedere.
 
