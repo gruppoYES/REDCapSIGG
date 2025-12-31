@@ -23,7 +23,7 @@ del progetto. In particolare:
     fase, le modifiche al progetto sono semplici e immediate. E'
     consigliabile mantenere il progetto in questa fase fino a che non si
     è conclusa la fase di test e il progetto non è pronto per la fase
-    successivo. In questa fase, per contro, è sconsigliato inserire dati
+    successiva. In questa fase, per contro, è sconsigliato inserire dati
     di partecipanti reali allo studio.
 
 -   La fase di produzione (*production)* è quella pensata per l'attuale
