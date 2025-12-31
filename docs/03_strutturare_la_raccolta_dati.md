@@ -99,8 +99,7 @@ migliorando la qualità complessiva dei dati raccolti.
 Ogni variabile può essere poi flaggata come "obbligatoria" -- in questo
 caso il sistema darà errore nel caso in cui il data collector chiuda la
 raccolta dati senza aver fornito una risposta - o come "identifier". In
-questo caso, la risposta verrà di norma censura nell'export dei dati. E'
-
+questo caso, la risposta verrà di norma censura nell'export dei dati. E' 
 bene tenere a mente che per quanto l'identifier aiuti a mantenere
 l'anonimizzazione del dato, non è un'opzione che permette di crittare la
 risposta all'interno del database. A prescindere quindi dall'utilizzo di
