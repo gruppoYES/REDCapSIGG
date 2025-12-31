@@ -23,7 +23,7 @@ A.   L'account PI viene creato quando il progetto viene accettato dal
 Q.  Sono PI e ho bisogno di creare nuove utenze.
 
 A.  Il PI non può creare nuove utenze su REDCap SIGG: può aggiungere al
-    progetto solo utenze già create dall'amministratore.a richiesta di
+    progetto solo utenze già create dall'amministratore. La richiesta di
     creazione delle utenze avviene tramite email all'amministratore
     (gruppoyes@sigg.it) usando il modulo fornito in fase di attivazione
     del progetto.
