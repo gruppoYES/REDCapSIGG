@@ -37,7 +37,7 @@ più colonne, una per ciascuna opzione: ogni colonna riporta tipicamente
 
 L'*API*, invece, è una modalità più avanzata che consente l'accesso in
 tempo reale ai dati. Può essere utile per analisi in itinere o per
-evitrayar il download manuale del dataset su un dispositivo locale.
+evitare il download manuale del dataset su un dispositivo locale.
 L'accesso avviene tramite la generazione di un token ("Create *API* token
 now" nella pagina *API* del progetto): solo gli utenti con permessi
 adeguati (spesso il PI) possono generarlo. Il token è a tutti gli
